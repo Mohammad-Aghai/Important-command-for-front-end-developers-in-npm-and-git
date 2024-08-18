@@ -1,4 +1,4 @@
-#npm commands
+**#npm commands**
 1. cd address => thats meen change directory
 2. cd ../ => one step up 
 3. mkdir folderName => create a folder in address
@@ -53,7 +53,7 @@ npm i react-icons -g
 npm rm raect-icons -g
 
 
-#git commands
+**#git commands**
 1. cd projecat addresses
 2. git init
 3. git add .
