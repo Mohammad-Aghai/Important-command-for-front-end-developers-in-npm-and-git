@@ -1,0 +1,80 @@
+1. cd projecat addresses
+2. git init
+3. git add .
+4. git commit -m "commit name"
+6. short commit and add = git commit -am "commit name"
+7. ignore the file with a fille .ignore and confrime the files we want to ignore them
+8. create branch =  git branch nameOfbranch
+8. change the branch name => git branch -m newName
+9. switch in branch =  git switch branchname
+10. create and switch branch shortcut = git switch -c branchname
+11. git log 
+12. git log --oneline
+13. git log --all
+14. git log --graph
+15. git log --all --oneline --graph 
+16. git diff
+17. git diff brnachname..branchname or commitHash..commitHash
+18. git --version
+19. git status
+20. git rm --catch
+21. git marege branchname
+22.git diff --staged
+23.git diff --HEAD
+24. git checkout commitName 
+25. fore get back to the master  after checkout => git switch yourHeadName
+26. git checkout HEAD
+27. tow step before HEAD => git cheackout HEAD~2 
+28. get back to the HEAD those thire commited => git checkout HEAD yourFilename
+29. get back to the HEAD those thire commited => git restore yourFilename
+30. git restore --source commitHash FileName 
+31. git reset commitHash
+32. git reset --hard commitHash
+33. git revert  commitHash  +> git add . +> git revert --continue
+34. git stash save "massage"
+35. git stash pop
+36. git stash apply
+37. git stash list
+38. git stash apply stash@{id}
+39. git stash drop stash@{id}
+40. git stash clear
+41. git rebase branchName => this is like merege branches but in this case commite creaeting time its not matter
+42. git rebase 	-i --root => edite and delete commites
+43. git rebase -i HEAD~5 => edite and delete commites choose the commit before editor opening
+44. git tag lable => lightweight tage this is a lablae make for commit we can use it for version of our application 
+45. git tag -a lable =>Annotated tags this is like this is like lightweight tags but we can leave the coomment for commit too
+46  git tag > return all the tags we have
+47. git tag  -f v1.0.2(most be the old version name you want to change) commit hash change the git tag to other commits
+48. git tag show tagName => return tag information like tag comment 
+49. git tag tagName commitHash
+50. get the tag => git tag -l "v2*" => return the v2 tages 
+51. detach with tags => fit checkout tagname
+52. git diff fore tags => git diff firsttagname..secondTagName
+53. delete tag from commit => git tag -d tagname 
+
+
+
+GIT AND GITHUB
+1. git clone {github or gitlab project url}
+2. git remote add lableName  gitHubUrl
+3. git remote -v
+4. git push {remoteName} {branchName}
+5. web site for making README file  markdown-it.github.io 
+6. README Type RADME.md
+7. git branch -r  => this code refers to remote branchs
+9. with git switch {branchName} you can craete and use your remote branch and there is no problem
+10. git push remotName branchName
+12. git pull remoteName branchName
+13. git fetch remoteName branchName 
+14. git push --set-upstream remoteName branchName => if your branch is not exist in your git hub and you want to push the branch use -u or --set-upstream
+15. pull request in git hub => then pull it 
+16. git push origin tagname => push the tag in github repasitory
+17. git push origin --tag => push all tages in github repasitory
+
+
+
+
+___git area___
+working directory => vscode Change
+stage area => for changing in git
+repasitory => commit and save in git all steps

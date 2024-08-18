@@ -1,0 +1,52 @@
+1. cd address => thats meen change directory
+2. cd ../ => one step up 
+3. mkdir folderName => create a folder in address
+4. clear => clear the terminal  area
+5. rmdir folderName => remove a file or folder 
+6. ls => shows the list of file and folders
+7. npm init => inistall package.json with all questions 
+8. npm init --yes or npm init -y install all package without questions
+9. npm i packageName => for install package like : npm i bootstrap
+10.npm uninstall packageName => for delete a package from project 
+11. npm i or npm install => installing all package in package.json and made node-modules folder
+12. npm i packageName@version => with this command we can install old version of package for
+example : npm install bootstrap@4.3.3  the patch in this case referce to the top one
+version mean => (Majore) . (minor) . (patch or bug fix)
+13. npm i bootstrap --save-dev => this install the package dvelopment dependebce mode
+14. npm i packageName -g => install package global and access to it everyware
+15. npm i packageName packageName => install several package in one try
+16. npm list => showing all dependensies with thire dependencies
+17. npm list --depth 0 => showing just the project owen dependencies
+18. npm config set init-author-name "yourName" => config allways author name "yourName"
+19. npm config set init-licanse "MIT" => config allways licanse "MIT"
+20. npm get init-licanse => get the licanse name for knowing it
+21. npm run test => with this command we can accsess in see the scripts
+22. npm run-script test => like prev command 
+23. node index.js => we can run in nodejs the files and see the logs in terminal with this command 
+24. tsc app.js => translate the typescript file to javascript in other file just like app.js file
+25.simpel before version  meaning 
+^4.6.1 =>  ^ last version 4.9.9 maens package can update both patch and menore not major
+~4.6.1 => last version 4.6.9 measn the package just update patch 
+*4.6.1 => update package in last version and update every part of versions
+26. npx consay "text" => some package thire can be run without installing this happend with npx
+27. npm audit => find all apckage with vulnerabilities ÂÓíÈ ÐíÑí 
+28. nom audit fix => if your packages had vulnerabilites this command mabe can fix it 
+---------------________--------------
+npm install epress --save
+npm i express --save
+npm install express
+npm i express
+****************
+npm install jest --save-dev
+npm i jest --save-dev
+npm install jest -D
+npm i jest -D
+****************
+npm uninstall nodemon
+npm un noddemon 
+npm remove nodemon
+npm rm nodemon
+****************
+npm i react-icons --global
+npm i react-icons -g
+npm rm raect-icons -g
